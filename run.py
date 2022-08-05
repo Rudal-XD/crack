@@ -218,36 +218,6 @@ def license():#line:42
 
     login()
 
-    print (f"""
-
-{U}[{P}1{U}]{P} Dapatkan Api key
-
-{U}[{P}2{U}]{P} Masukan Api Key
-
-{U}[{P}3{U}]{P} Keluar {U}[{H}Exit{U}]{H}
-
-""")#line:49
-
-    masuk =input (f"{H}[{P}?{H}]{P} Choose :{K} ")#line:50
-
-    if masuk in ['1','01']:#line:51
-
-      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/62895386194665?text=Bang+rudal+Beli+Lisensi');license ()#line:52
-
-    elif masuk in ['2','02']:#line:53
-
-      time.sleep(2);login()     
-
-    elif masuk in ['3','03']:#line:62
-
-      exit ('anda kocak geming ya')#line:63
-
-    else :#line 64
-
-      exit()
-
-
-
 def login():#line 67
 
 		try:
