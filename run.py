@@ -170,7 +170,7 @@ def login():
 
 		sol().print(suu, style='cyan')
 
-		time.sleep(2.5)
+		time.sleep(1)
 
 		menu()
 
@@ -194,15 +194,15 @@ def login():
 
 		sol().print(lo, style='cyan')
 
-		main()
+		login()
 
 		
 
 def menu():
 
-	try:sh = requests.get('https://httpbin.org/ip')
+	try:ls = requests.get('https://httpbin.org/ip')
 
-	except:sh = {'origin':'-'}
+	except:ls = {'origin':'-'}
 
 	try:
 
