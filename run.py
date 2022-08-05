@@ -216,8 +216,6 @@ def license():#line:42
 
     os .system ('clear')
 
-    login()
-
 def login():#line 67
 
 		try:
