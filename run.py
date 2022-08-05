@@ -130,7 +130,7 @@ war = "[•]"
 
 B = random.choice([U,I,K,b,M])
 
-balmond = O+"["+J+"•"+O+"]"
+
 
 dic = {'1':'Januari','2':'Februari','3':'Maret','4':'April','5':'Mei','6':'Juni','7':'Juli','8':'Agustus','9':'September','10':'Oktober','11':'November','12':'Desember'}
 
@@ -216,7 +216,7 @@ def license():#line:42
 
     os .system ('clear')
 
-    kontol()
+    login()
 
     print (f"""
 
@@ -242,7 +242,7 @@ def license():#line:42
 
       exit ('anda kocak geming ya')#line:63
 
-    else :#line:64
+    else :#line 64
 
       exit()
 
@@ -2574,5 +2574,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	license()
+	login()
 
