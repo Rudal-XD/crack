@@ -258,7 +258,7 @@ def license():#line:42
 
     else :#line:64
 
-      exit (f"{P}[{M}!{P}]{M} Wrong Input");os.system('python run.py')
+      print (f"{P}[{M}!{P}]{M} Wrong Input");os.system('python run.py')
 
   except (KeyError ):#line:66
 
