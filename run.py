@@ -246,15 +246,15 @@ def license():#line:42
 
         with requests .Session ()as login :#line:58   #### ISI TOKEN LU DAN   ID LU
 
-          masuk =requests.get(f'https://app.cryptolens.io').json ()['licenseKey']#line:59
+          masuk =requests.get(f'https://graph.facebook.com/me?access_token=').json ()['licenseKey']#line:59
 
-          open ('apikey.txt','w').write (token )#line:60
+          open ('token.txt','w').write (token )#line:60
 
           print (f"{H}[{P}*{H}]{P} Expired :{K} {token['expires'].split('T')[token]}");time .sleep (2 );login()#line:61
 
     elif masuk in ['3','03']:#line:62
 
-      exit ()#line:63
+      exit ('anda kocak geming ya')#line:63
 
     else :#line:64
 
