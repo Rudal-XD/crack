@@ -210,11 +210,6 @@ def kontol():
 
 {B}[•] FACEBOOK: KALZE-XD""")
 
-def license():#line:42
-
-  try :#line:43
-
-    os .system ('clear')
 
 def login():#line 67
 
