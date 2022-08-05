@@ -172,7 +172,7 @@ def login():
 
 		time.sleep(1)
 
-		menu()
+		main()
 
 	except KeyError:
 
@@ -2430,5 +2430,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	login()
+	menu()
 
