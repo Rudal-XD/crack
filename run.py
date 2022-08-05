@@ -156,78 +156,7 @@ def back():
 
 # BANNER
 
-def banner():
-
-	print('''%s
-
-██╗  ██╗ █████╗ ██╗     ███████╗███████╗███████╗███████╗
-
-██║ ██╔╝██╔══██╗██║     ╚══███╔╝██╔════╝██╔════╝██╔════╝
-
-█████╔╝ ███████║██║       ███╔╝ █████╗  █████╗  █████╗  
-
-██╔═██╗ ██╔══██║██║      ███╔╝  ██╔══╝  ██╔══╝  ██╔══╝  
-
-██║  ██╗██║  ██║███████╗███████╗███████╗███████╗███████╗
-
-╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝╚══════╝ 
-
-"""%(N))                                                    
-
-───────────────────────────────────────────────────────
-
- [\x1b[1;96m+%s] Nama       : KALZE
-
- [\x1b[1;96m+%s] WhatsApp   : 6283865283286
-
- [\x1b[1;96m+%s] Facebook   : @KLZ
-
- [\x1b[1;96m+%s] Github      : https://github.com/kalze123/kalze-new
-
-───────────────────────────────────────────────────────\n'''%(N,N,N,N))
 def login():
-
-		try:
-
-			token = open('.token.txt','r').read()
-
-			tokenku.append(token)
-
-			try:
-
-				sy = requests.get('https://graph.facebook.com/me?access_token='+tokenku[0])
-
-				sy2 = json.loads(sy.text)['name']
-
-				sy3 = json.loads(sy.text)['id']
-
-				sy4 = json.loads(sy.text)['birthday']
-
-				menu()
-
-			except KeyError:
-
-				login_lagi()
-
-			except requests.exceptions.ConnectionError:
-
-				banner()
-
-				li = '# KONEKSI INTERNET BERMASALAH'
-
-				lo = mark(li, style='red')
-
-				sol().print(lo, style='cyan')
-
-				exit()
-
-		except IOError:
-
-			login_lagi()
-
-
-
-def login_lagi():
 
 	banner()
 
