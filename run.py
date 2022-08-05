@@ -158,8 +158,6 @@ def back():
 
 def login():
 
-	banner()
-
 	sky = '# MASUKAN TOKEN FACEBOOK'
 
 	sky2 = mark(sky, style='green')
