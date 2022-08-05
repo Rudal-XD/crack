@@ -146,10 +146,6 @@ okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
-def clear():
-
-	os.system('clear')
-
 def login():
 
 	sky = '# MASUKAN TOKEN FACEBOOK'
@@ -198,7 +194,7 @@ def login():
 
 		sol().print(lo, style='cyan')
 
-		exit()
+		main()
 
 		
 
