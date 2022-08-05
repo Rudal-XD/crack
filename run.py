@@ -236,11 +236,7 @@ def license():#line:42
 
     elif masuk in ['2','02']:#line:53
 
-      time.sleep(2);login()
-
-      else :#line:57
-
-          license()
+      time.sleep(2);login()     
 
     elif masuk in ['3','03']:#line:62
 
