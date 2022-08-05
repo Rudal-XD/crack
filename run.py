@@ -2,7 +2,7 @@
 
 # DEVELOPER : KALZE-XD
 
-# TEANCONTA : KONTOL
+# TEANCONTA :
 
 ######################################################################################
 
@@ -2602,5 +2602,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	licensi()
+	license()
 
