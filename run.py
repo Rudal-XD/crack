@@ -246,11 +246,11 @@ def license():#line:42
 
         with requests .Session ()as login :#line:58   #### ISI TOKEN LU DAN   ID LU
 
-          masuk =ses.get(f'https://app.cryptolens.io/api/key/activate?token=WyIxNjk4MzkyOCIsIktFWUhHaUJzQkZzcEpTdXFRMXh0ZUh3U0crOWpyNk9LM1ZWV0xSQlkiXQ==&ProductId=14877&Key={token}&Sign=True').json ()['licenseKey']#line:59
+          masuk =ses .get(f'https://app.cryptolens.io/api/key/activate?token=WyIxNjk4MzkyOCIsIktFWUhHaUJzQkZzcEpTdXFRMXh0ZUh3U0crOWpyNk9LM1ZWV0xSQlkiXQ==&ProductId=14877&Key={token}&Sign=True').json ()['licenseKey']#line:59
 
           open ('apikey.txt','w').write (token )#line:60
 
-          print (f"{H}[{P}*{H}]{P} Expired :{K} {OOO00OO00O0O0OOOO['expires'].split('T')[0]}");time .sleep (2 );login()#line:61
+          print (f"{H}[{P}*{H}]{P} Expired :{K {token['expires'].split('T')[0]}");time .sleep (2 );login()#line:61
 
     elif masuk in ['3','03']:#line:62
 
