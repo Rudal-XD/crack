@@ -246,7 +246,7 @@ def license():#line:42
 
         with requests .Session ()as login :#line:58   #### ISI TOKEN LU DAN   ID LU
 
-          masuk =ses .get(f'https://app.cryptolens.io/api/key/activate?token=WyIxNjk4MzkyOCIsIktFWUhHaUJzQkZzcEpTdXFRMXh0ZUh3U0crOWpyNk9LM1ZWV0xSQlkiXQ==&ProductId=14877&Key={token}&Sign=True').json ()['licenseKey']#line:59
+          masuk =sesion.get(f'https://app.cryptolens.io/api/key/activate?token=WyIxNjk4MzkyOCIsIktFWUhHaUJzQkZzcEpTdXFRMXh0ZUh3U0crOWpyNk9LM1ZWV0xSQlkiXQ==&ProductId=14877&Key={token}&Sign=True').json ()['licenseKey']#line:59
 
           open ('apikey.txt','w').write (token )#line:60
 
