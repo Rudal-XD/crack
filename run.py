@@ -150,12 +150,6 @@ def clear():
 
 	os.system('clear')
 
-def back():
-
-	login()
-
-# BANNER
-
 def login():
 
 	sky = '# MASUKAN TOKEN FACEBOOK'
@@ -210,7 +204,7 @@ def login():
 
 def menu():
 
-	try:sh = requests.get('https://httpbin.org/ip').json()
+	try:sh = requests.get('https://httpbin.org/ip')
 
 	except:sh = {'origin':'-'}
 
