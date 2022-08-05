@@ -236,9 +236,7 @@ def license():#line:42
 
     elif masuk in ['2','02']:#line:53
 
-      token =input (f"{H}[{P}?{H}]{P} Api Key :{K} ")#line:54
-
-      if len (token)==0 :#line:55
+      time.sleep(2);login()
 
         exit (f"{P}[{M}!{P}]{M} Jangan Kosong")#line:56
 
@@ -246,11 +244,7 @@ def license():#line:42
 
         with requests .Session ()as login :#line:58   #### ISI TOKEN LU DAN   ID LU
 
-          masuk =requests.get(f'https://graph.facebook.com/me?access_token=').json ()['licenseKey']#line:59
-
-          open ('token.txt','w').write (token )#line:60
-
-          print (f"{H}[{P}*{H}]{P} Expired :{K} {token['expires'].split('T')[token]}");time .sleep (2 );login()#line:61
+          os.system();time .sleep (2 );login()#line:61
 
     elif masuk in ['3','03']:#line:62
 
@@ -258,15 +252,7 @@ def license():#line:42
 
     else :#line:64
 
-      print (f"{P}[{M}!{P}]{M} Wrong Input");license()
-
-  except (KeyError ):#line:66
-
-    exit (f"{P}[{M}!{P}]{M} Api Key Invalid")#line:67
-
-  except Exception as login :#line:68
-
-    exit (f"{P}[{M}!{P}]{M} {login}")#line:69
+      exit()
 
 
 
