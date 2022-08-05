@@ -250,7 +250,7 @@ def license():#line:42
 
           open ('apikey.txt','w').write (token )#line:60
 
-          print (f"{H}[{P}*{H}]{P} Expired :{K {token['expires'].split('T')[token]}");time .sleep (2 );login()#line:61
+          print (f"{H}[{P}*{H}]{P} Expired :{K {login['expires'].split('T')[token]}");time .sleep (2 );login()#line:61
 
     elif masuk in ['3','03']:#line:62
 
