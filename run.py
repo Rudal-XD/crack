@@ -258,7 +258,7 @@ def license():#line:42
 
     else :#line:64
 
-      print (f"{P}[{M}!{P}]{M} masukan yang bener");time.sleep(1);main()
+      print (f"{P}[{M}!{P}]{M} Wrong Input");license()
 
   except (KeyError ):#line:66
 
