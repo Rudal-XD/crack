@@ -232,7 +232,7 @@ def license():#line:42
 
     if masuk in ['1','01']:#line:51
 
-      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/6283865283286?text=Bang+Kalz+Beli+Lisensi');exit ()#line:52
+      print (f"{H}[{P}!{H}]{P} Anda Akan Diarahkan Ke Whatsapp...");time .sleep (3 );os .system ('xdg-open https://wa.me/62895386194665?text=Bang+rudal+Beli+Lisensi');license ()#line:52
 
     elif masuk in ['2','02']:#line:53
 
