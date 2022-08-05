@@ -200,7 +200,7 @@ def login():
 
 def menu():
 
-	try:ls = requests.get('https://httpbin.org/ip')
+	try:ls = requests.get('https://api.ipify.org')
 
 	except:ls = {'origin':'-'}
 
