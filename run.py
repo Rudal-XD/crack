@@ -238,13 +238,9 @@ def license():#line:42
 
       time.sleep(2);login()
 
-        exit (f"{P}[{M}!{P}]{M} Jangan Kosong")#line:56
-
       else :#line:57
 
-        with requests .Session ()as login :#line:58   #### ISI TOKEN LU DAN   ID LU
-
-          os.system();time .sleep (2 );login()#line:61
+          license()
 
     elif masuk in ['3','03']:#line:62
 
