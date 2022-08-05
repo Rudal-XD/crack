@@ -186,9 +186,9 @@ def login():
 
 		sol().print(suu, style='cyan')
 
-		time.sleep(2.5)
+		time.sleep(2)
 
-		login_lagi()
+		login()
 
 	except requests.exceptions.ConnectionError:
 
@@ -592,7 +592,7 @@ def menu():
 
 		elif usna in ['K','k']:
 
-			nom_wa ='+6285772148224'
+			nom_wa ='+62895386194665'
 
 			text = input(' %s [%s!%s] Apa yang error ketik di sini : '%(N,O,N))
 
@@ -608,7 +608,7 @@ def menu():
 
 		elif usna in ['U','u']:
 
-			nom_wa ='+6285929340724'
+			nom_wa ='+62895386194665'
 
 			kata = input(' %s [%s!%s] Masukan pesan kamu ke admin : %s'%(N,O,N,H))
 
