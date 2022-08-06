@@ -172,10 +172,8 @@ def login():
 		
 
 class menu:
-
         banner()
-
-	def __init__(self):
+	def __init__(self): #line1
 		self.uid = []
 	def menu(self):
 		try:
