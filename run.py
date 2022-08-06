@@ -2231,7 +2231,7 @@ def run(link, token):
 
 
 
-          sys.exit()
+          sys.login()
 
 
 
@@ -2355,7 +2355,7 @@ def uas(__Aang__Sayang__Laura__):
 
 	if __Aang__Sayang__Laura__ == '':
 
-		print ('\n%s[%s!%s] Yang bener kontol'%(P,K,P));jeda(2)
+		print ('\n%s[%s!%s] Yang bener kontol'%(P,K,P));sleep(2)
 
 		uas(__Aang__Sayang__Laura__)
 
@@ -2425,5 +2425,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	useragent()
+	login()
 
