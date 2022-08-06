@@ -118,7 +118,10 @@ okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
-
+def clear():
+	os.system('clear')
+def back():
+	login()
 def banner():
 	print('''%s
 	_______           ______   _______  _                 ______  
@@ -137,6 +140,8 @@ def banner():
 ───────────────────────────────────────────────────────\n'''%(N,N,N,N))
 
 #login
+
+balmond = O+"["+J+"•"+O+"]"
 
 def login():
 	banner()
