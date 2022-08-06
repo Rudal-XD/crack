@@ -2367,7 +2367,7 @@ def uas(__Aang__Sayang__Laura__):
 
 		if ua in(""):
 
-			print ('\n%s[%s!%s] Yang bener kontol'%(P,K,P));jeda(2)
+			print ('\n%s[%s!%s] Yang bener kontol'%(P,K,P));sleep(2)
 
 			menu()
 
