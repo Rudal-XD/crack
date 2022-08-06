@@ -182,7 +182,7 @@ class menu:
 		except requests.exceptions.ConnectionError:
 			exit(' [%s!%s] cek koneksi'%(M,N))
 		try:
-			akss = open('license.txt','r').read()
+			akss = open('token.txt','r').read()
 		except IOError:
 			akss = '-'
 		banner()
@@ -2420,5 +2420,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	dump_massal()
+	benner()
 
