@@ -144,7 +144,7 @@ def login():
 
 		time.sleep(1)
 
-		main()
+		menu()
 
 	except KeyError:
 
@@ -175,7 +175,6 @@ class menu:
 	def __init__(self):
 		self.uid = []
 	def main(self):
-		os.system('clear')
 		try:
 			toke = open('token.x','r').read()
 		except IOError:
@@ -2425,5 +2424,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	pilih()
+	login()
 
