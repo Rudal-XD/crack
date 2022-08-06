@@ -149,7 +149,7 @@ def login():
 	sky2 = mark(sky, style='green')
 	sol().print(sky2, style='cyan')
 	panda = input(x+'['+p+'•'+x+'] Token Fb : ')
-	akun=open('.token.txt','w').write(panda)
+	akun=open('.token.x','w').write(panda)
 	try:
 		tes = requests.get('https://graph.facebook.com/me?access_token='+panda)
 		tes3 = json.loads(tes.text)['id']
@@ -187,7 +187,7 @@ class menu:
 		except requests.exceptions.ConnectionError:
 			exit(' [%s!%s] cek koneksi'%(M,N))
 		try:
-			akss = open('token.txt','r').read()
+			akss = open('token.x','r').read()
 		except IOError:
 			akss = '-'
 		banner()
