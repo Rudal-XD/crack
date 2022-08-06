@@ -172,7 +172,7 @@ def login():
 		
 
 class menu:
-        os.system('clear')
+
         banner()
 
 	def __init__(self):
