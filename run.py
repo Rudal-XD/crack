@@ -120,9 +120,8 @@ cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
 
 def banner():
-        os.system('clear')
 	print('''%s
-          _______           ______   _______  _                 ______  
+	_______           ______   _______  _                 ______  
 (  ____ )|\     /|(  __  \ (  ___  )( \      |\     /|(  __  \ 
 | (    )|| )   ( || (  \  )| (   ) || (      ( \   / )| (  \  )
 | (____)|| |   | || |   ) || (___) || | _____ \ (_) / | |   ) |
@@ -152,13 +151,13 @@ def login():
 		sue = '# nice Login berhasil'
 		suu = mark(sue, style='green')
 		sol().print(suu, style='cyan')
-		time.sleep(2.5)
+		time.sleep(2)
 		menu()
 	except KeyError:
 		sue = '# Login Gagal, Cek token'
 		suu = mark(sue, style='red')
 		sol().print(suu, style='cyan')
-		time.sleep(2.5)
+		time.sleep(2)
 		login()
 	except requests.exceptions.ConnectionError:
 		li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
@@ -2421,5 +2420,5 @@ if __name__=='__main__':
 
 	except:pass
 
-	login()
+	dump_massal()
 
