@@ -118,6 +118,16 @@ okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
+
+def banner():
+
+banner = (f"""
+{M}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ╔═╗┌─┐┌┐┌┬  ┬┌─┐┬─┐┌┬┐
+{M}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ║  │ ││││└┐┌┘├┤ ├┬┘ │
+{P}ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ╚═╝└─┘┘└┘ └┘ └─┘┴└─ ┴
+""")
+#login
+
 def login():
 
 	sky = '# MASUKAN TOKEN FACEBOOK'
