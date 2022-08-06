@@ -120,8 +120,9 @@ cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
 
 def banner():
+        os.system('clear')
 	print('''%s
-	_______           ______   _______  _                 ______  
+ _______           ______   _______  _                 ______  
 (  ____ )|\     /|(  __  \ (  ___  )( \      |\     /|(  __  \ 
 | (    )|| )   ( || (  \  )| (   ) || (      ( \   / )| (  \  )
 | (____)|| |   | || |   ) || (___) || | _____ \ (_) / | |   ) |
@@ -131,7 +132,7 @@ def banner():
 |/   \__/(_______)(______/ |/     \|(_______/|/     \|(______/ 
                                                                
 ───────────────────────────────────────────────────────
- [\x1b[1;96m+%s] Author   : iver-XD
+ [\x1b[1;96m+%s] Author   : Rudal-XD
  [\x1b[1;96m+%s] Github   : -
  [\x1b[1;96m+%s] Facebook : gaming bubrah
 ───────────────────────────────────────────────────────\n'''%(N,N,N,N))
@@ -170,7 +171,7 @@ class menu:
 
 	def __init__(self):
 		self.uid = []
-	def main(self):
+	def menu(self):
 		try:
 			toke = open('token.x','r').read()
 		except IOError:
