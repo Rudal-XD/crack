@@ -1,32 +1,4 @@
-#############################################################################
-
-# DEVELOPER : KALZE-XD
-
-# TEANCONTA :
-
-######################################################################################
-
-
-
 import requests,bs4,json,os,sys,random,datetime,time,re
-
-try:
-
-	import rich
-
-except ImportError:
-
-	os.system('pip install rich')
-
-	time.sleep(1)
-
-	try:
-
-		import rich
-
-	except ImportError:
-
-		exit('Tidak Dapat Menginstall Module rich, Coba Install Manual (pip install rich)')
 
 import threading
 
