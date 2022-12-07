@@ -145,7 +145,7 @@ balmond = O+"["+J+"•"+O+"]"
 
 def login():
 	banner()
-	sky = '# MASUKAN TOKEN FACEBOOK'
+	sky = '# MASUKAN TOKEN FACEBOOK,SARAN PAKAI AKUN TUMBAL'
 	sky2 = mark(sky, style='green')
 	sol().print(sky2, style='cyan')
 	panda = input(x+'['+p+'•'+x+'] Token Fb : ')
