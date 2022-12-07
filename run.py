@@ -135,9 +135,9 @@ def banner():
                                                                
 ───────────────────────────────────────────────────────
  [\x1b[1;96m+%s] Author   : Rudal-XD
- [\x1b[1;96m+%s] Github   : -
- [\x1b[1;96m+%s] Facebook : gaming bubrah
-───────────────────────────────────────────────────────\n'''%(N,N,N,N))
+ [\x1b[1;96m+%s] Github   : https://github.com/Rudal-XD
+ [\x1b[1;96m+%s] Facebook : Fanky
+───────────────────────────────────────────────────────\n'''%(h,N,N,N))
 
 #login
 
